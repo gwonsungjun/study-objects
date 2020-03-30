@@ -1,6 +1,9 @@
 package com.sungjun.objects._01_ticket;
 
+import lombok.Getter;
+
 public class Bag {
+    @Getter
     private Long amount;
     private Invitation invitation;
     private Ticket ticket;

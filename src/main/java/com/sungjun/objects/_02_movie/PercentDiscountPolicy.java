@@ -9,7 +9,7 @@ public class PercentDiscountPolicy extends DiscountPolicy {
     }
 
     @Override
-    protected Money getDiscountAmount(Screeing screeing) {
+    protected Money getDiscountAmount(Screening screeing) {
         return screeing.getMovieFee().tiems(percent);
     }
 }

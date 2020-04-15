@@ -1,7 +1,12 @@
 package com.sungjun.objects._02_movie;
 
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
 import java.math.BigDecimal;
 
+@EqualsAndHashCode
+@ToString
 public class Money {
     public static final Money ZERO = Money.wons(0);
 
